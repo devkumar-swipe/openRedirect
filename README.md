@@ -24,24 +24,24 @@
 ## 🏗️ Project Structure
 
 openredirect-pro/
--├── main.py # CLI handler
--├── core/ # Core modules
--│ ├── scanner.py
--│ ├── fetcher.py
--│ ├── payloads.py
--│ ├── analyzer.py
--│ ├── utils.py
--│ └── reporter.py
--├── data/ # Payloads & redirect param keywords
--│ ├── payloads.txt
--│ └── redirect-params.txt
--├── logs/ # Resume support
--│ └── scan.log
--├── output/ # Results folder
--│ ├── results.json
--│ └── results.html
--├── requirements.txt
--└── README.md
+- ├── main.py # CLI handler
+- ├── core/ # Core modules
+- │ ├── scanner.py
+- │ ├── fetcher.py
+- │ ├── payloads.py
+- │ ├── analyzer.py
+- │ ├── utils.py
+- │ └── reporter.py
+- ├── data/ # Payloads & redirect param keywords
+- │ ├── payloads.txt
+- │ └── redirect-params.txt
+- ├── logs/ # Resume support
+- │ └── scan.log
+- ├── output/ # Results folder
+- │ ├── results.json
+- │ └── results.html
+- ├── requirements.txt
+- └── README.md
 
 ---
 
