@@ -24,24 +24,24 @@
 ## 🏗️ Project Structure
 
 openredirect-pro/
-├── main.py # CLI handler
-├── core/ # Core modules
-│ ├── scanner.py
-│ ├── fetcher.py
-│ ├── payloads.py
-│ ├── analyzer.py
-│ ├── utils.py
-│ └── reporter.py
-├── data/ # Payloads & redirect param keywords
-│ ├── payloads.txt
-│ └── redirect-params.txt
-├── logs/ # Resume support
-│ └── scan.log
-├── output/ # Results folder
-│ ├── results.json
-│ └── results.html
-├── requirements.txt
-└── README.md
+-├── main.py # CLI handler
+-├── core/ # Core modules
+-│ ├── scanner.py
+-│ ├── fetcher.py
+-│ ├── payloads.py
+-│ ├── analyzer.py
+-│ ├── utils.py
+-│ └── reporter.py
+-├── data/ # Payloads & redirect param keywords
+-│ ├── payloads.txt
+-│ └── redirect-params.txt
+-├── logs/ # Resume support
+-│ └── scan.log
+-├── output/ # Results folder
+-│ ├── results.json
+-│ └── results.html
+-├── requirements.txt
+-└── README.md
 
 ---
 
@@ -65,14 +65,17 @@ python main.py --list targets.txt --threads 20 --output results.json
 ```
 ## CLI Options
 Flag	Description
-- --list	File containing list of subdomains or URLs
-- --threads	Number of concurrent threads (default: 10)
-- --output	Output file path for results (JSON format)
-- --proxy	File with list of HTTP/SOCKS proxies
-- --resume	Resume scan from last state using scan.log
-- --timeout	HTTP request timeout in seconds (default: 15)
-- --verbose	Enable verbose logging
-- --no-color	Disable colored output in terminal
+| Flag         | Description                                   |
+| ------------ | --------------------------------------------- |
+| `--list`     | File containing list of subdomains or URLs    |
+| `--threads`  | Number of concurrent threads (default: 10)    |
+| `--output`   | Output file path for results (JSON format)    |
+| `--proxy`    | File with list of HTTP/SOCKS proxies          |
+| `--resume`   | Resume scan from last state using `scan.log`  |
+| `--timeout`  | HTTP request timeout in seconds (default: 15) |
+| `--verbose`  | Enable verbose logging                        |
+| `--no-color` | Disable colored output in terminal            |
+
 
 ## Input Files
 targets.txt: Your list of subdomains or URLs (1 per line)
