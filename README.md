@@ -48,8 +48,8 @@ openredirect-pro/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/openredirect-pro.git
-cd openredirect-pro
+git clone https://github.com/devkumar-swipe/openRedirect.git
+cd openRedirect
 pip install -r requirements.txt
 ```
 ### Optional Dependencies (for better URL discovery)
